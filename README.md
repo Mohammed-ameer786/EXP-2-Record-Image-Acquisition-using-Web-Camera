@@ -117,6 +117,7 @@ The live video is successfully displayed in a resized window with a resolution o
 ### iv) Rotate and display the video
 <img width="907" height="607" alt="image" src="https://github.com/user-attachments/assets/b5ab283a-aedb-4192-932f-658eb0a9a0f8" />
 The live video is successfully rotated by 90° clockwise and displayed using OpenCV.
+
 ## RESULT
 
 Thus, the image is successfully captured from the webcam and various video processing operations such as saving, displaying, resizing, and rotating are performed using OpenCV.
