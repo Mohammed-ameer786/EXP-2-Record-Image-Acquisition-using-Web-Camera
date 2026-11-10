@@ -45,11 +45,10 @@ close all display windows.
 ## PROGRAM
 
 **Developed By:**
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
+Mohammed Ameer F
 
 **Register No.:**
-\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_
-
+212225040248
 ``` python
 import cv2
 import numpy as np
@@ -104,29 +103,20 @@ else:
 ## OUTPUT
 
 ### i) Write the frame as JPG image
+Image saved successfully as captured_image.jpg
 
-The first captured webcam frame is saved as `captured_image.jpg` in the
-current working directory.
 
 ### ii) Display the video
-
-The original live webcam video is displayed in a window titled
-**Original Video**.
+<img width="897" height="647" alt="image" src="https://github.com/user-attachments/assets/4cbfff26-1603-4fce-80b6-5cd3c91da06d" />
+The live video is displayed successfully using the OpenCV library.
 
 ### iii) Display the video by resizing the window
-
-The live video is resized to **640 × 480 pixels** and displayed in a
-window titled **Resized Video**.
+<img width="687" height="482" alt="image" src="https://github.com/user-attachments/assets/2e4f95c6-8ce0-41a6-90e3-e9ba440c82cd" />
+The live video is successfully displayed in a resized window with a resolution of 640 × 480 pixels using the OpenCV library.
 
 ### iv) Rotate and display the video
-
-The live video is rotated **90° clockwise** and displayed in a window
-titled **Rotated Video**.
-
-**Note:** Press `q` while a video window is active to stop the program.
-
+<img width="907" height="607" alt="image" src="https://github.com/user-attachments/assets/b5ab283a-aedb-4192-932f-658eb0a9a0f8" />
+The live video is successfully rotated by 90° clockwise and displayed using OpenCV.
 ## RESULT
 
-Thus, an image is successfully captured from the webcam and saved as a
-JPG file. The live video is displayed, resized to 640 × 480 pixels, and
-rotated 90° clockwise using OpenCV.
+Thus, the image is successfully captured from the webcam and various video processing operations such as saving, displaying, resizing, and rotating are performed using OpenCV.
